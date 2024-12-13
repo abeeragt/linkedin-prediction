@@ -28,7 +28,7 @@ model.fit(X_train, y_train)
 
 # Streamlit UI
 st.title("LinkedIn Usage Predictor")
-st.header("Predict if a person uses LinkedIn and the probability of usage")
+st.header("Predict if a person uses LinkedIn and how likely they use it")
 
 # User input
 income = st.slider("Income (1-9)", 1, 9, 5)
