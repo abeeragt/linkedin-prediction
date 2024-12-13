@@ -31,7 +31,8 @@ st.title("LinkedIn Usage Predictor")
 st.header("Predict if a person uses LinkedIn and how likely they use it")
 
 # User input
-income = st.slider("Income (1-9)", 1, 9, 5)
+st.header("1 being the lowest Income/Education and 9 being the highest Income/Education"
+income = st.slider("Income (1-9):", 1, 9, 5)
 educ2 = st.slider("Education (1-8)", 1, 8, 4)
 par = st.selectbox("Are you a parent?", ["No", "Yes"])
 marital = st.selectbox("Married?", ["No", "Yes"])
